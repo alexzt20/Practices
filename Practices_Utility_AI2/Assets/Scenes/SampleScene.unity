@@ -228,7 +228,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6, y: 0.97, z: -0.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.51917, y: 0.51917, z: 0.51917}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -656,7 +656,7 @@ Transform:
   m_GameObject: {fileID: 962639321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.3, y: 0.93, z: 0}
+  m_LocalPosition: {x: -7.3, y: 0.93, z: -3.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -696,18 +696,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6943eb8af397d549869175665f63f13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UtilityAgent
-  health: 75
+  health: 100
   maxHealth: 100
   enemy: {fileID: 1097283721}
   healthResource: {fileID: 227182275}
   safePoint: {fileID: 1498724759}
-  enemySenseRange: 12
+  enemySenseRange: 50
   resourceSenseRange: 15
   attackDistance: 1.8
   attackWeight: 1
   fleeWeight: 1
   resourceWeight: 1
-  decisionInterval: 0.5
+  decisionInterval: 5
   currentAction: 0
   attackScore: 0
   fleeScore: 0
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 8d7cb4b4c7b9ebf40ba4f7680c063c88, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 601db65553afaaf4c86060bb299604e8, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &1097283717
 GameObject:
